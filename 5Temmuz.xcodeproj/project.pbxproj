@@ -14,6 +14,8 @@
 		33872CDF2874B5640006B5D6 /* _TemmuzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872CDE2874B5640006B5D6 /* _TemmuzTests.swift */; };
 		33872CE92874B5640006B5D6 /* _TemmuzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872CE82874B5640006B5D6 /* _TemmuzUITests.swift */; };
 		33872CEB2874B5640006B5D6 /* _TemmuzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872CEA2874B5640006B5D6 /* _TemmuzUITestsLaunchTests.swift */; };
+		33872CF82874F94C0006B5D6 /* ScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872CF72874F94C0006B5D6 /* ScreenOne.swift */; };
+		33872CFA287501B40006B5D6 /* ScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872CF9287501B40006B5D6 /* ScreenTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		33872CE42874B5640006B5D6 /* 5TemmuzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5TemmuzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33872CE82874B5640006B5D6 /* _TemmuzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _TemmuzUITests.swift; sourceTree = "<group>"; };
 		33872CEA2874B5640006B5D6 /* _TemmuzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _TemmuzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33872CF72874F94C0006B5D6 /* ScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOne.swift; sourceTree = "<group>"; };
+		33872CF9287501B40006B5D6 /* ScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				33872CCD2874B5610006B5D6 /* _TemmuzApp.swift */,
 				33872CCF2874B5610006B5D6 /* ContentView.swift */,
+				33872CF72874F94C0006B5D6 /* ScreenOne.swift */,
+				33872CF9287501B40006B5D6 /* ScreenTwo.swift */,
 				33872CD12874B5640006B5D6 /* Assets.xcassets */,
 				33872CD32874B5640006B5D6 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33872CFA287501B40006B5D6 /* ScreenTwo.swift in Sources */,
+				33872CF82874F94C0006B5D6 /* ScreenOne.swift in Sources */,
 				33872CD02874B5610006B5D6 /* ContentView.swift in Sources */,
 				33872CCE2874B5610006B5D6 /* _TemmuzApp.swift in Sources */,
 			);
